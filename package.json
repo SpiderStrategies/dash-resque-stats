@@ -1,0 +1,23 @@
+{
+  "name": "dash-resque-stats",
+  "version": "1.0.0",
+  "description": "Push resque stats to a dash dashboard.",
+  "main": "index.js",
+  "bin": {
+    "dash-resque-stats": "./bin/dash-resque-stats"
+  },
+  "dependencies": {
+    "dignite": "^1.1.1",
+    "minimist": "^1.1.0",
+    "node-resque-stats": "^1.2.1",
+    "rc": "^0.6.0",
+    "redis": "^0.12.1"
+  },
+  "keywords": [
+    "dash",
+    "resque",
+    "dashboards"
+  ],
+  "author": "Nathan Bowser <nathan@spiderstrategies.com>",
+  "license": "ISC"
+}
